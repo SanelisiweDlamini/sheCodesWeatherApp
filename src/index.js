@@ -46,3 +46,5 @@ function getCurrent(response) {
   let currentHumidity = document.querySelector("#humidity");
   currentHumidity.innerHTML = `${response.data.main.humidity}%`;
 }
+let btn = document.querySelector("#more");
+btn.addEventListener("submit", "https://openweathermap.org/");
