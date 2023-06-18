@@ -1,0 +1,48 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  display: block;
+  margin: auto;
+}
+#descr {
+  text-transform: capitalize;
+}
+h1 {
+  color: #702cf5;
+  position: relative;
+  margin-top: 30px;
+  top: 90px;
+}
+h2 {
+  color: #702cf5;
+  position: relative;
+  margin-top: 30px;
+  top: 90px;
+}
+h3 {
+  color: #b2a6bc;
+  position: relative;
+  top: 90px;
+}
+form {
+  position: fixed;
+  top: 30px;
+  right: 500px;
+}
+.border {
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+.more {
+  margin: 10px 0;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  width: 350px;
+  height: 350px;
+}
