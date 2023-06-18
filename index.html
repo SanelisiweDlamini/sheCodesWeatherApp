@@ -16,17 +16,17 @@
 
   <body>
     <form class="row g-3" id="search-form">
-      <div class="col-auto">
+      <span class="col-auto">
         <input type="text" class="form-control" placeholder="Enter city" />
-      </div>
-      <div class="col-auto">
+      </span>
+      <span class="col-auto">
         <button type="submit" class="btn btn-primary mb-3">🔍Search</button>
-      </div>
+      </span>
     </form>
 
     <div class="border border-success p-2 border-opacity-10">
       <div class="row">
-        <div class="col-4">
+        <div class="col-12">
           <div class="card" style="width: 18rem">
             <img
               src="pics/pic2.jpg"
@@ -38,10 +38,12 @@
               <h1 id="temperature">16°C</h1>
               <h1 id="humidity">12%</h1>
               <h3>Current time</h3>
-              <p class="card-text">💧2%</p>
             </div>
           </div>
         </div>
+      </div>
+      <div class="footer">
+        <button class="more">Get detailed weather...</button>
       </div>
     </div>
 

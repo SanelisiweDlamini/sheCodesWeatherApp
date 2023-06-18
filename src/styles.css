@@ -10,25 +10,17 @@ div {
 }
 h1 {
   color: #702cf5;
-  position: relative;
-  margin-top: 30px;
-  top: 90px;
 }
 h2 {
   color: #702cf5;
-  position: relative;
-  margin-top: 30px;
-  top: 90px;
 }
 h3 {
   color: #b2a6bc;
-  position: relative;
-  top: 90px;
 }
 form {
-  position: fixed;
+  position: relative;
   top: 30px;
-  right: 500px;
+  padding-left: 450px;
 }
 .border {
   text-align: center;
@@ -36,13 +28,17 @@ form {
   top: 90px;
 }
 .more {
-  margin: 10px 0;
+  position: relative;
+  bottom: 5px;
+  left: 300px;
+  border-radius: 10px;
+  border: 2px solid red;
+  background: #702cf5;
+  box-shadow: 0 8px 16px 0 red;
 }
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: fixed;
-  width: 350px;
-  height: 350px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
