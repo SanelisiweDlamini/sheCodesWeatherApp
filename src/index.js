@@ -34,7 +34,7 @@ function check(event) {
   display.innerHTML = city.value;
   //alert(city.value);
 
-  let apiKey = "095adb74c2b19077ce4ca65f855199f0";
+  let apiKey = "";
   let searchCity = city.value;
   let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${searchCity}&units=metric&appid=${apiKey}`;
 
